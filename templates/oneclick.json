@@ -304,6 +304,7 @@
         "name": "[variables('storageAccountSkuName')]"
       },
       "kind": "StorageV2",
+      "minimumTlsVersion": "TLS1_2",
       "properties": {
         "accessTier": "Hot"
       }
